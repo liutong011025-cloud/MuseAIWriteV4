@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { logApiCall } from '@/lib/log-api-call'
 
 const DIFY_API_KEY = process.env.DIFY_API_KEY || ''
-const DIFY_CHAT_APP_ID = 'app-IKvkbOgKstyjEupEpbpu2iPF'
+const DIFY_CHAT_APP_ID = 'app-TFDykrjN8LpJROY6eTRNjwo5'
 const DIFY_BASE_URL = 'https://api.dify.ai/v1'
 
 export async function POST(request: NextRequest) {
@@ -84,4 +84,5 @@ export async function POST(request: NextRequest) {
     )
   }
 }
+
 
